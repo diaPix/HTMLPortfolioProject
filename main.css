@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.header {
+  height: 350px;
+  background:
+    /* top, transparent dark gray */
+    linear-gradient(
+      rgba(24, 21, 21, 0.75),
+      rgba(24, 21, 21, 0.75)
+    ),
+    /* bottom, image */
+    url('img/bg.jpg') no-repeat;
+    background-size: 100% auto;
+  background-position: center;
+  text-align: center;
+  border-top: 4px solid #E81C64;
+  color: white;
+  font-family: "Helvetica Neue", Arial, serif;
+  font-size: 20px;
+}
