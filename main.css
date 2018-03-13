@@ -1,9 +1,16 @@
-body {
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
 
-.header {
-  height: 350px;
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, serif;
+  color: white;
+}
+
+
+header {
+  height: 250px;
   background:
     /* top, transparent dark gray */
     linear-gradient(
@@ -11,12 +18,15 @@ body {
       rgba(24, 21, 21, 0.75)
     ),
     /* bottom, image */
-    url('img/bg.jpg') no-repeat;
+    url('img/bg1.jpg') no-repeat;
     background-size: 100% auto;
   background-position: center;
   text-align: center;
   border-top: 4px solid #E81C64;
-  color: white;
-  font-family: "Helvetica Neue", Arial, serif;
-  font-size: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    text-shadow: 1px 1px 10px black;
 }
