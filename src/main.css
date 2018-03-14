@@ -56,26 +56,19 @@ h2 {
 h3 {
   font-weight: bold;
   font-size: 26px;
+  margin: 10px 0 15px;
 }
 
 p, li {
   font-size: 22px;
-}
-
-.tagline {
-  color: #444444;
-  min-height: 160px;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 30px 25px;
-}
-
-.tagline h3 {
-  margin: 10px 0 15px;
-}
-
-.tagline p {
+  font-weight: 200;
   margin: 10px 0;
+}
+
+ul {
+  line-height: 30px;
+  padding: 0;
+  margin-left: 30px;
 }
 
 a {
@@ -91,14 +84,43 @@ a:hover {
   background-color: #00B8D4;
 }
 
-.skills {
-  background-color: #E91E63;
-  padding: 25px 0 0 28%;
-  min-height: 300px;
+.tagline {
+  color: #444444;
+  min-height: 160px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 25px;
 }
 
+/*
+.tagline h3 {
+  margin: 10px 0 15px;
+}
+*/
+.tagline p {
+  margin: 10px 0;
+}
+
+.skills {
+  background-color: #E91E63;
+}
+
+.skills-content {
+  background-color: #E91E63;
+  padding: 30px 25px;
+  min-height: 300px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+/*
+.skills h3 {
+  margin-top: 15px;
+}
+*/
 .contact {
   color: #444444;
-  padding-left: 28%;
-  padding-top: 30px;
+  min-height: 90px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 25px;
 }
